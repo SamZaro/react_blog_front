@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: 10em 50vh auto 10em;
+  grid-template-columns: 1fr 5fr 2fr 1fr;
+  grid-template-areas: "header header header header";
+}
+
+.main {
+  grid-area: main;
+}
+
+
+.error_field {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: red;
+}
+
+.error_text {
+  color: #fff;
+
+}
+
+
+
+/*Blog List*/
+
+.card{
+  border:none;
+  background-color:#252836;
+  color:#fff;
+  border-radius:12px;
+}
+
+
+.card h5 {
+  color:#fff;
+}
+
+.user-timing{
+  right:9px;
+  bottom:9px;
+  color:#fff;
+}
+
+.views-content{
+  color:#606271;
+}
+
+.views{
+  font-size:12px;
+
+}
